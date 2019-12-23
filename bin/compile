@@ -81,7 +81,7 @@ mkdir -p $BUILD_DIR/apt
 	topic "Basic Wine installation is done"
 
 	#$BUILD_DIR/apt/usr/lib/x86_64-linux-gnu/wine-unstable/bin/wine --version
-	$BUILD_DIR/apt/usr/lib/i386-linux-gnu/wine-unstable/bin/wine --version
+	$BUILD_DIR/apt/usr/lib/i386-linux-gnu/wine-unstable/bin/wine32 --version
 
 	topic "install wine tricks pending"
 	rm -f winetricks
